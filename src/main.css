@@ -1,23 +1,201 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
 body {
-    background-color: #bbb;
-    margin: 0;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .overlay {
-    z-index:50;
-    position: fixed;
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
-    background-color:rgba(0,0,0,0.5);
+  z-index: 50;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .popup {
-    z-index:100;
-    position: fixed;
-    top:200px;
-    left:200px;
-    right:200px;
-    background-color:white
+  z-index: 100;
+  position: fixed;
+  top: 200px;
+  left: 200px;
+  right: 200px;
+  background-color: white;
+}
+
+.header {
+  height: 5000px;
+}
+
+.header h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 90%;
+  z-index: 5;
+  letter-spacing: -10px;
+}
+
+.jes {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-text-stroke: 3px white;
+  width: 40%;
+  height: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 180px;
+  color: grey;
+  -webkit-text-stroke: 5px black;
+  width: 85%;
+  height: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kat {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 360px;
+  -webkit-text-stroke: 3px white;
+}
+
+.mail {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 540px;
+  color: blue;
+  width: 50%;
+  height: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dia {
+  position: absolute;
+  left: 1050px;
+  top: 15px;
+  z-index: 1;
+}
+
+.dia:hover {
+  width: 800px;
+  left: 550px;
+  z-index: 6;
+  -webkit-box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+}
+
+.dia2 {
+  position: absolute;
+  left: 1050px;
+  top: 1500px;
+  z-index: 1;
+}
+
+.lust {
+  position: absolute;
+  left: 100px;
+  top: 550px;
+  z-index: 7;
+}
+
+.lust:hover {
+  width: 800px;
+  -webkit-box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+}
+
+.black {
+  position: absolute;
+  left: 890px;
+  top: 800px;
+  z-index: 6;
+  -webkit-box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+}
+
+.black:hover {
+  width: 800px;
+  left: 630px;
+  z-index: 7;
+}
+
+.white {
+  position: absolute;
+  left: 1100px;
+  top: 550px;
+  /* z-index: 6; */
+}
+.white:hover {
+  width: 800px;
+  left: 630px;
+  -webkit-box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  z-index: 7;
+}
+.arca {
+  position: absolute;
+  left: 100px;
+  top: 15px;
+  z-index: 4;
+}
+
+.arca:hover {
+  width: 800px;
+  z-index: 6;
+  -webkit-box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+}
+
+.futur {
+  position: absolute;
+  top: 1650px;
+  left: 470px;
+  z-index: 6;
+  -webkit-box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+}
+
+.futur:hover {
+  width: 800px;
+  left: 300px;
+}
+
+.posters {
+  position: absolute;
+  left: 50px;
+  top: 1000px;
+}
+
+.posters:hover {
+  width: 800px;
+  left: 300px;
+  z-index: 7;
+  -webkit-box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 44px 56px rgba(255, 255, 255, 1);
 }

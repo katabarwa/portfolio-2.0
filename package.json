@@ -30,6 +30,7 @@
     "express": "^4.16.4",
     "react-redux": "^6.0.1",
     "react-router-dom": "^5.2.0",
+    "react-sticky": "^6.0.3",
     "redux": "^4.0.5",
     "shelljs": "^0.8.3",
     "webpack-inject-plugin": "^1.5.0",
