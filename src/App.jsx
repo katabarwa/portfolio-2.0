@@ -25,6 +25,24 @@ class App extends Component {
           width="300px"
           src="Screen Shot 2020-08-17 at 2.02.32 PM.png"
         />
+        <iframe
+          className="mosh"
+          src="https://player.vimeo.com/video/62971674"
+          width="640"
+          height="360"
+          frameBorder="0"
+          allow="autoplay; fullscreen"
+          allowFullScreen
+        ></iframe>
+        {/* {$(document).ready(function() {
+          $(".mosh")
+            .on("mouseover", function(event) {
+              this.play();
+            })
+            .on("mouseout", function(event) {
+              this.pause();
+            });
+        })} */}
       </div>
     );
   };
